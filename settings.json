@@ -1,0 +1,94 @@
+{
+    /*
+        Editor settings
+    */
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 0,
+    "editor.lineNumbers": "on",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.find.addExtraSpaceOnTop": false,
+    "diffEditor.wordWrap": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.showStatusBar": true,
+    /*
+        Workbench settings
+    */
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    /*
+        Screen Cast settings
+    */
+    "screencastMode.fontSize": 32,
+    "screencastMode.mouseIndicatorSize": 32,
+    /*
+        Terminal settings
+    */
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    /*
+        Window settings
+    */
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+    /*
+        Explorer settings
+    */
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 0,
+    /*
+        Files settings
+    */
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.psvdb": "json",
+        "*.psv": "json",
+        "*.psevk": "json",
+        "*.psds": "json",
+        "*.ccjs": "javascript"
+    },
+    /*
+        Language: Javascript / Typescript settings
+    */
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    /*
+        Extension: Live Server settings
+    */
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    /*
+        Extension: Color Info settings
+    */
+    "colorInfo.fields": [
+        "rgb",
+        "hex",
+        "preview"
+    ],
+    /*
+        Extension: Aws settings
+    */
+    "aws.samcli.location": "C:\\Program Files\\Amazon\\AWSSAMCLI\\bin\\sam.cmd",
+    /*
+        Extension: Red Hat settings
+    */
+    "redhat.telemetry.enabled": false,
+    /*
+        Language: Json settings
+    */
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    }
+}
